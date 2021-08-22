@@ -8,7 +8,9 @@ string name;
     cin >> name;
     cout << "Hello, " << name;
     cout << "\n";
-int count = 0;
-string book; 
+/* Allen's first commit below */
+// int count = 0;
+string book = name + " is reading a book"; 
+    cout << book + "\n";
 return 0;
 }
